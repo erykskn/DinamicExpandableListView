@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Personel  -->
+
+    <string name="UserName">WebServisUserName</string>
+    <string name="Password">WebServisUserPassword</string>
+    <string name="URL">URL</string>
+    <string name="DersProgrami">WebMethodName</string>
+
+
+</resources>

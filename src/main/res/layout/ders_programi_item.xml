@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/DersAdı"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        />
+
+    <!-- Actual Item Name Data -->
+    <TextView
+        android:id="@+id/DersAdıData"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/DersAdı"
+
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        />
+
+    <!-- Price Tag -->
+    <TextView
+        android:id="@+id/DERS_KODU"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DersAdı"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/DERS_KODUData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DersAdı"
+        android:layout_toRightOf="@id/DERS_KODU"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/BOL_AD"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DERS_KODU"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/BOL_ADData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DERS_KODU"
+        android:layout_toRightOf="@id/BOL_AD"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/DERSLIK_GUN"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/BOL_AD"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/DERSLIK_GUNData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/BOL_AD"
+        android:layout_toRightOf="@id/DERSLIK_GUN"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/DERS_SAAT"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DERSLIK_GUN"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/DERS_SAATData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DERSLIK_GUN"
+        android:layout_toRightOf="@id/DERS_SAAT"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/DERS_SAAT_BIT"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DERS_SAAT"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/DERS_SAAT_BITData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DERS_SAAT"
+        android:layout_toRightOf="@id/DERS_SAAT_BIT"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/DERSLIK_AD"
+        android:paddingBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/DERS_SAAT_BIT"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        />
+    <!-- Actual Price Data -->
+    <TextView
+        android:id="@+id/DERSLIK_ADData"
+        android:paddingBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/DERS_SAAT_BIT"
+        android:layout_toRightOf="@id/DERSLIK_AD"
+        android:gravity="center_vertical"
+        />
+</RelativeLayout>
